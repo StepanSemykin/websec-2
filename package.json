@@ -1,0 +1,27 @@
+{
+  "name": "websec-2",
+  "version": "1.0.0",
+  "description": "1. Получить задание\r 2. Сделать форк данного репозитория\r 3. Выполнить задание согласно полученному варианту\r 4. Сделать PR (pull request) в данный репозиторий \r 6. Исправить замечания после code review\r 7. Получить approve \r 8. Прийти на занятие и защитить работу",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsecd/websec-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsecd/websec-2/issues"
+  },
+  "homepage": "https://github.com/itsecd/websec-2#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "luxon": "^3.6.0"
+  }
+}
